@@ -5,11 +5,11 @@ class Dog
   
   def initialize(name)
     @name = name
-    @@all << self 
+    @@all << self #upon initialization the Dog will be saved to the @@all array 
   end
   
   def save
-    @@all << self.save 
+    @@all << self.save    #
   end
   
   def self.all 
@@ -31,4 +31,3 @@ pluto = Dog.new("Pluto")
 fido = Dog.new("Fido")
 maddy = Dog.new("Maddy")
 
-Dog.save
