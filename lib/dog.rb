@@ -33,4 +33,3 @@ maddy = Dog.new("Maddy")
 
 Dog.print_all
 
-
