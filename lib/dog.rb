@@ -20,7 +20,7 @@ class Dog
     self.all.clear 
   end
     
-  def print_all
+  def self.print_all
     self.all.each do 
       |name| puts "#{name}"
     end
@@ -30,5 +30,6 @@ end
 pluto = Dog.new("Pluto")
 fido = Dog.new("Fido")
 maddy = Dog.new("Maddy")
+
 
 
